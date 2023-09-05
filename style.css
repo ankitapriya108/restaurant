@@ -92,7 +92,7 @@ color: red;
     font-size: 40px;
     position: absolute;
     top: 260px;
-    right: 250px;
+    right: 245px;
  }
  .text h5{
     bottom: 5px;
@@ -250,7 +250,7 @@ i.fa-solid.fa-inbox {
     color: red;
 }
 .testimonials{
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: #eeeeee;
     margin-top: 30px;
@@ -273,23 +273,18 @@ i.fa-solid.fa-inbox {
     color: red;
 }
 .restroimg{
-    height: 650px;
-    width: 500px;
+   
     background-image: url(events-1.jpg);
 }
 .restroimg_one{
-    height:650px ;
-    width: 500px;
+   
     background-image: url(events-2.jpg);
 }
 .restroimg_two{
-    height: 650px;
-    width: 500px;
+   
     background-image: url(events-3.jpg);
 }
 .blur{
-    height: 650px;
-    width: 500px;
     background-color: rgba(0, 0, 0, 0.503);
     color: white;
     text-align: left;
@@ -312,8 +307,65 @@ i.fa-solid.fa-inbox {
 .chefs h1 span{
     color: red;
 }
-.chefs_intro{
-    width: 400px;
+.table{
+    text-align: center;
+    margin-top: 30px;
+}
+.table h1 {
+    font-family: var(--font-primary);  
+}
+.table h1 span {
+    color: red;
+}
+.photo{
+    height: 500px;
+    width:450px ;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.roundimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.roundimg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+i.fa-solid.fa-star {
+    color: goldenrod;
+}
+.para_one {
+    height: 200px;
+    width: 500px;
+    text-align: left!important;
+    margin-right: 100px;
+    border-left: 4px solid red;
+    padding-left: 10px;
+}
+
+.bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 145px;
+    
+}
+/* .box{
+    height: 500px;
+    width: 700px;
+    background-color: #eeeeee;
+} */
+.map iframe{
+    height: 400px;
+    width: 100%;
 }
 
 
